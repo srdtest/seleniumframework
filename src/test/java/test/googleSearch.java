@@ -26,7 +26,7 @@ public class googleSearch {
 		POM_test.googlesearch.search(driver).sendKeys("Automation step by step");
 		POM_test.googlesearch.search(driver).sendKeys(Keys.ENTER);
 		POM_test.googlesearch.searchbutton(driver).sendKeys(Keys.RETURN);
-		println("this is the change")
+		println("this is the change");
 	}
 
 }
