@@ -19,6 +19,7 @@ public class firstTest {
      driver.findElement(By.xpath("//*[@id=\"AuthenticationForm\"]/div[4]/div[2]/button/span")).click();
      Thread.sleep(3000);
     driver.findElement(By.xpath("//*[@id=\'btnCloseModal\']")).click();
+		Thread.sleep(3000);
     driver.manage().window().maximize();
      
 	}
