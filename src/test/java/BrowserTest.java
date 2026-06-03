@@ -15,6 +15,7 @@ public class BrowserTest {
 		//System.setProperty("webdriver.ie.driver", ProjectPath+"\\Drivers\\ie\\IEDriverServer.exe");
 		//WebDriver driver = new FirefoxDriver();
 		//WebDriver driver = new ChromeDriver();
+		//Use WebDriverManager
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		
